@@ -1,8 +1,8 @@
 # Samples
-Sample code for Argon Projects
+Sample code for Particle Argon Projects
 
 ## Objective
-The main objective of this repo is to help students and mentors with some sample code at one place.
+The main objective of this repo is to help students and mentors with some sample and working particle code at one place.
 
 ## Scope
 The scope of the samples will be limited to sensor and data processing code to get you started with some basics.
