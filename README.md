@@ -14,4 +14,5 @@ temp-hum-logger -
 This code collects temperature and humidity data from the sensor and logs it on adafruit.io.
 https://io.adafruit.com/YOCX/dashboards/temphummon
 
-Tt also checks for a condition of humidity too-high. This event is then used by IFTTT to send a notification SMS text.
+It also checks for a condition of humidity too-high. This event is then used by IFTTT to send a notification SMS text.
+![Temp-Hum-dash](https://github.com/a2mm-iot-hackathon/iot-samples/blob/master/argon-adafruit-io.jpg)
