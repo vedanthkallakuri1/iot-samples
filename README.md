@@ -13,6 +13,7 @@ You can always search for particle code samples on the web. The only advantage o
 temp-hum-logger - 
 This code collects temperature and humidity data from the sensor and logs it on adafruit.io.
 Dashboard Link - https://io.adafruit.com/YOCX/dashboards/temphummon
+
 Code link - https://github.com/a2mm-iot-hackathon/iot-samples/blob/master/temp-hum-logger.ino
 
 It also checks for a condition of humidity too-high. This event is then used by IFTTT to send a notification SMS text.
