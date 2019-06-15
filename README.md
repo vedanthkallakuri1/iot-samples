@@ -16,5 +16,8 @@ Dashboard Link - https://io.adafruit.com/YOCX/dashboards/temphummon
 
 Code link: https://github.com/a2mm-iot-hackathon/iot-samples/blob/master/temp-hum-logger.ino
 
-It also checks for a condition of humidity too-high. This event is then used by IFTTT to send a notification SMS text.
 ![Temp-Hum-dash](https://github.com/a2mm-iot-hackathon/iot-samples/blob/master/argon-adafruit-io.jpg)
+
+It also checks for a condition of humidity too-high. This event is then used by IFTTT to send a notification SMS text.
+
+![Temp-Hum-IFTTT](https://github.com/a2mm-iot-hackathon/iot-samples/blob/master/IFTTT-Applet.jpg)
