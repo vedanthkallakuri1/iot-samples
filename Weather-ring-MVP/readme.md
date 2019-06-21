@@ -2,13 +2,30 @@
 
 ## Objective
 
-The weather-ring reads forecast from weather.gov and lights up the LED right with a color for each hour for next 10 hours.
-Bluer the color colder it is. Yellow, Green and Orange shades are comfort zones. Redder it gets hotter it is.
+The weather-ring learns from an external resource available on the web. It used API to extract forecast from weather.gov and lights up the LED right with a color for each hour for next 10 hours. Bluer the color colder it is. Yellow, Green and Orange shades are comfort zones. Redder it gets hotter it is.
 
 
 ![Weather-Ring](https://github.com/a2mm-iot-hackathon/iot-samples/blob/master/Weather-ring-MVP/weather-ring.gif)
 
 ![Weather-Ring-Architecture](https://github.com/a2mm-iot-hackathon/iot-samples/blob/master/Weather-ring-MVP/weather-ring-arch.jpg)
+
+## API instructions and info for weather.gov
+
+Link to the API documentation - 
+
+https://www.weather.gov/documentation/services-web-api
+
+The Coordinates for your location can be found from this GPS coordinates locator based on address
+
+https://www.gps-coordinates.net/
+
+Here are coordinates used in the API raw data
+
+https://api.weather.gov/points/42.2818,-83.6081
+
+Here is the hour forcast link provided in the raw data from above link
+
+https://api.weather.gov/gridpoints/DTX/51,29/forecast/hourly
 
 ## JSON template for collecting and extracting data from weather.gov
 
