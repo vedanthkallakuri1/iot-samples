@@ -6,7 +6,7 @@ The weather-ring reads forecast from weather.gov and lights up the LED right wit
 Bluer the color colder it is. Yellow, Green and Orange shades are comfort zones. Redder it gets hotter it is.
 
 
-![Weather-Ring](https://ephmedia.giphy.com/6c9db75e-8241-4732-ac03-093baa2b7e44.gif)
+![Weather-Ring](https://bit.ly/iot-wring)
 
 ![Weather-Ring-Architecture](https://github.com/a2mm-iot-hackathon/iot-samples/blob/master/Weather-ring-MVP/weather-ring-arch.jpg)
 
