@@ -27,6 +27,12 @@ Here is the hour forcast link provided in the raw data from above link
 
 https://api.weather.gov/gridpoints/DTX/51,29/forecast/hourly
 
+## Sample code using the webhook
+
+https://github.com/a2mm-iot-hackathon/iot-samples/blob/master/Weather-ring-MVP/weather-ring.ino
+
+
+
 ## JSON template for collecting and extracting data from weather.gov
 
 ###Extracting temperature
@@ -34,3 +40,8 @@ https://api.weather.gov/gridpoints/DTX/51,29/forecast/hourly
 Trial 1
 
 `{{properties}}{{periods}}~{{temperature}}~{{/periods}}{{/properties}}`
+
+Finalized Moustache Template to extract JSON data from the link - 
+https://api.weather.gov/gridpoints/DTX/46,29/forecast/hourly
+
+`{{properties.periods.0.temperature}}~{{properties.periods.1.temperature}}~{{properties.periods.2.temperature}}~{{properties.periods.3.temperature}}~{{properties.periods.4.temperature}}~ {{properties.periods.5.temperature}}~{{properties.periods.6.temperature}}~{{properties.periods.7.temperature}}~{{properties.periods.8.temperature}}~{{properties.periods.9.temperature}}~{{properties.periods.10.temperature}}`
