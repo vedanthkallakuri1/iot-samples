@@ -4,4 +4,4 @@
 
 ###Extracting temperature
 Trial 1
-{{properties}}{{periods}}~{{temperature}}~{{/periods}}{{/properties}}
+`{{properties}}{{periods}}~{{temperature}}~{{/periods}}{{/properties}}`
