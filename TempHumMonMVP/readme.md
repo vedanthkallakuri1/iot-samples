@@ -8,6 +8,8 @@ temp-hum-logger:
 This code collects temperature and humidity data from the sensor and logs it on adafruit.io.
 Dashboard Link - https://io.adafruit.com/YOCX/dashboards/temphummon
 
+![Architecture Tech stack](https://github.com/a2mm-iot-hackathon/iot-samples/blob/master/TempHumMonMVP/arch.jpg)
+
 ![Temp-Hum-setup](https://github.com/a2mm-iot-hackathon/iot-samples/blob/master/Argon-temphum-mon.jpg)
 
 ![Temp-Hum-dash](https://github.com/a2mm-iot-hackathon/iot-samples/blob/master/argon-adafruit-io.jpg)
