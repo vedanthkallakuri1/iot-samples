@@ -1,34 +1,20 @@
-Ultrasonic ultrasonic(D2);
+#include "Grove-Ultrasonic-Ranger.h"
 
-int lastRange = 0;
+//int Ultrasonic = D5;
 
-void setup() {
-    Serial.begin(9600);
+Ultrasonic ultrasonic(D4);
+void setup()
+{
+	Serial.begin(9600);
 }
+void loop()
+{
 
-void loop() {
-    int rangeI;
-    int rangeC;
-
-    Serial.println("Obstacle found at:");
-
-    rangeC = ultrasonic.MeasureInCentimeters();
-    Serial.print(rangeC); //0~400cm
-    Serial.println(" cm");
-
-   rangeI = ultrasonic.MeasureInInches();
-    Serial.print(rangeI); //0~400inches
-    Serial.println(" inch");
-
-    if (rangeI != lastRange) {
-        lastRange = rangeI;
-
-    }
-         if (rangeC != lastRange) {
-        lastRange = rangeC;
-
-    }
-
-
-    delay(2000);
+	long RangeInCentimeters;
+	
+	Serial.println("The distance to obstacles in front is: ");
+	RangeInCentimeters = ultrasonic.MeasureInCentimeters(); // two measurements should keep an interval
+	Serial.print(RangeInCentimeters);//0~400cm
+	Serial.println(" cm");
+	delay(2000);
 }
